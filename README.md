@@ -8,13 +8,17 @@ git clone https://github.com/SamNeve/SIMPLEMAP-BasicPortScanner
 ```
 ## Step 2 
 ```
-chmod +x Dependencies.sh
+cd SIMPLEMAP-BasicPortScanner
 ```
 ## Step 3
 ```
+chmod +x Dependencies.sh
+```
+## Step 4
+```
 sudo bash Dependencies.sh
 ```
-## Step 4 
+## Step 5
 ```
 python3 ./SIMPLEMAP.py
 ```
